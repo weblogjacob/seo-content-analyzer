@@ -5,7 +5,7 @@ export const splitWords = (text: string): Array<string> => {
   text = text.replace(/(^\s*)|(\s*$)/gi, '') //exclude  start and end white-space
   text = text.replace(/\n/g, ' ')
   text = text.replace(/[ ]{2,}/gi, ' ') //2 or more space to 1
-  return text.split(' ').filter((s) => !!s.trim())
+  return text.split(' ').filter((s) => !!s.trim()).map((s) => s.trim()).map((s) => s.replace(/(^[^a-z0-9])|([^a-z0-9]$)/gi, ''))
 }
 
 export const splitSentences = (text: string): string[] => {
