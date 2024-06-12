@@ -72,8 +72,8 @@ const lang: Record<string, any> = {
       used: 'The focus keyword "??" is used in the image title tag'
     },
     SENTENCES_LENGTH: {
-      long: '??% of sentences contain more than 20 words, which is more than the maximum recommended value of 10%',
-      good: '??% of sentences contain more than 20 words, which is a little bit more than the maximum recommended value of 10%',
+      long: '??% of sentences contain more than 20 words, which is more than the maximum recommended value of 25%',
+      good: '??% of sentences contain more than 20 words, which is a little bit more than the maximum recommended value of 25%',
       perfect: 'Only ??% of sentences contain more than 20 words, which is perfect'
     },
     PASSIVE_VOICE: {
@@ -159,8 +159,8 @@ const lang: Record<string, any> = {
       used: 'Fokus keyword "??" digunakan pada gambar title tag'
     },
     SENTENCES_LENGTH: {
-      long: '??% kalimat mengandung lebih dari 20 kata, yang melebihi nilai maksimum yang disarankan sebesar 10%',
-      good: '??% kalimat mengandung lebih dari 20 kata, yang sedikit lebih banyak dari nilai maksimum yang disarankan yaitu 10%',
+      long: '??% kalimat mengandung lebih dari 20 kata, yang melebihi nilai maksimum yang disarankan sebesar 25%',
+      good: '??% kalimat mengandung lebih dari 20 kata, yang sedikit lebih banyak dari nilai maksimum yang disarankan yaitu 25%',
       perfect: 'Hanya ??% kalimat yang mengandung lebih dari 20 kata, itu sempurna'
     },
     PASSIVE_VOICE: {
